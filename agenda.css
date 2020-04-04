@@ -1,0 +1,112 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+
+    
+}
+* {
+    font-family: arial;
+    box-sizing: border-box;
+}
+body
+{
+   background-image: url(imagecaland.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+header 
+{ 
+    background-color: rgb(235, 154, 125);
+    box-shadow: black 2px 2px 2px 2px ;
+   
+   
+}
+header h1
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+main
+{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+main h1
+{
+    text-align: center;
+}
+#ag
+{
+    text-decoration: underline;
+}
+
+body
+{
+    background-color: rgb(177, 186, 204);
+}
+table {
+    border: medium solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+    }
+td, th {
+    border: thin solid black;
+    text-align: center;
+    }
+#en
+{
+    background-color: orange;
+}
+
+#important
+{
+    background-color: red;
+}  
+
+    
+footer
+{
+   text-align: center;
+    height: 100px;
+
+}
+button
+{
+    margin-top: 20px;
+}
+
+textarea
+{
+    resize: none;
+}
+form
+{  display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: 50px;
+   
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+   
+}
+a:hover
+{
+    
+    opacity:0.5 ;
+    
+}
+.age
+{
+    margin: 0px;
+}
